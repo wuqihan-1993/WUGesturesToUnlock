@@ -15,6 +15,15 @@
 		576B332A1CAE915C003917A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576B33281CAE915C003917A8 /* LaunchScreen.storyboard */; };
 		576B33351CAE915C003917A8 /* WUGestureToUnlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B33341CAE915C003917A8 /* WUGestureToUnlockTests.m */; };
 		576B33401CAE915C003917A8 /* WUGestureToUnlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B333F1CAE915C003917A8 /* WUGestureToUnlockUITests.m */; };
+		576B33551CAE922D003917A8 /* WUGesturesUnlockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B334F1CAE922D003917A8 /* WUGesturesUnlockIndicator.m */; };
+		576B33561CAE922D003917A8 /* WUGesturesUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B33511CAE922D003917A8 /* WUGesturesUnlockView.m */; };
+		576B33571CAE922D003917A8 /* WUGesturesUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B33531CAE922D003917A8 /* WUGesturesUnlockViewController.m */; };
+		576B33581CAE922D003917A8 /* WUGesturesUnlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576B33541CAE922D003917A8 /* WUGesturesUnlockViewController.xib */; };
+		576B335B1CAE9260003917A8 /* gesture_headIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B335A1CAE9260003917A8 /* gesture_headIcon@2x.png */; };
+		576B335D1CAE926E003917A8 /* gesture_indicator_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B335C1CAE926E003917A8 /* gesture_indicator_normal@2x.png */; };
+		576B335F1CAE9274003917A8 /* gesture_indicator_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B335E1CAE9274003917A8 /* gesture_indicator_selected@2x.png */; };
+		576B33611CAE927A003917A8 /* gesture_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B33601CAE927A003917A8 /* gesture_normal@2x.png */; };
+		576B33631CAE9282003917A8 /* gesture_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576B33621CAE9282003917A8 /* gesture_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,18 @@
 		576B333B1CAE915C003917A8 /* WUGestureToUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WUGestureToUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576B333F1CAE915C003917A8 /* WUGestureToUnlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUGestureToUnlockUITests.m; sourceTree = "<group>"; };
 		576B33411CAE915C003917A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576B334E1CAE922D003917A8 /* WUGesturesUnlockIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockIndicator.h; sourceTree = "<group>"; };
+		576B334F1CAE922D003917A8 /* WUGesturesUnlockIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockIndicator.m; sourceTree = "<group>"; };
+		576B33501CAE922D003917A8 /* WUGesturesUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockView.h; sourceTree = "<group>"; };
+		576B33511CAE922D003917A8 /* WUGesturesUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockView.m; sourceTree = "<group>"; };
+		576B33521CAE922D003917A8 /* WUGesturesUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockViewController.h; sourceTree = "<group>"; };
+		576B33531CAE922D003917A8 /* WUGesturesUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockViewController.m; sourceTree = "<group>"; };
+		576B33541CAE922D003917A8 /* WUGesturesUnlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUGesturesUnlockViewController.xib; sourceTree = "<group>"; };
+		576B335A1CAE9260003917A8 /* gesture_headIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_headIcon@2x.png"; sourceTree = "<group>"; };
+		576B335C1CAE926E003917A8 /* gesture_indicator_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_normal@2x.png"; sourceTree = "<group>"; };
+		576B335E1CAE9274003917A8 /* gesture_indicator_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_selected@2x.png"; sourceTree = "<group>"; };
+		576B33601CAE927A003917A8 /* gesture_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_normal@2x.png"; sourceTree = "<group>"; };
+		576B33621CAE9282003917A8 /* gesture_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		576B33191CAE915C003917A8 /* WUGestureToUnlock */ = {
 			isa = PBXGroup;
 			children = (
+				576B334D1CAE921A003917A8 /* WUGestureUnlockView */,
 				576B331D1CAE915C003917A8 /* AppDelegate.h */,
 				576B331E1CAE915C003917A8 /* AppDelegate.m */,
 				576B33201CAE915C003917A8 /* ViewController.h */,
@@ -138,6 +160,33 @@
 				576B33411CAE915C003917A8 /* Info.plist */,
 			);
 			path = WUGestureToUnlockUITests;
+			sourceTree = "<group>";
+		};
+		576B334D1CAE921A003917A8 /* WUGestureUnlockView */ = {
+			isa = PBXGroup;
+			children = (
+				576B33591CAE923F003917A8 /* resources */,
+				576B334E1CAE922D003917A8 /* WUGesturesUnlockIndicator.h */,
+				576B334F1CAE922D003917A8 /* WUGesturesUnlockIndicator.m */,
+				576B33501CAE922D003917A8 /* WUGesturesUnlockView.h */,
+				576B33511CAE922D003917A8 /* WUGesturesUnlockView.m */,
+				576B33521CAE922D003917A8 /* WUGesturesUnlockViewController.h */,
+				576B33531CAE922D003917A8 /* WUGesturesUnlockViewController.m */,
+				576B33541CAE922D003917A8 /* WUGesturesUnlockViewController.xib */,
+			);
+			path = WUGestureUnlockView;
+			sourceTree = "<group>";
+		};
+		576B33591CAE923F003917A8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				576B33621CAE9282003917A8 /* gesture_selected@2x.png */,
+				576B33601CAE927A003917A8 /* gesture_normal@2x.png */,
+				576B335E1CAE9274003917A8 /* gesture_indicator_selected@2x.png */,
+				576B335C1CAE926E003917A8 /* gesture_indicator_normal@2x.png */,
+				576B335A1CAE9260003917A8 /* gesture_headIcon@2x.png */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +292,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576B33631CAE9282003917A8 /* gesture_selected@2x.png in Resources */,
+				576B335D1CAE926E003917A8 /* gesture_indicator_normal@2x.png in Resources */,
+				576B33581CAE922D003917A8 /* WUGesturesUnlockViewController.xib in Resources */,
 				576B332A1CAE915C003917A8 /* LaunchScreen.storyboard in Resources */,
+				576B335F1CAE9274003917A8 /* gesture_indicator_selected@2x.png in Resources */,
+				576B335B1CAE9260003917A8 /* gesture_headIcon@2x.png in Resources */,
 				576B33271CAE915C003917A8 /* Assets.xcassets in Resources */,
 				576B33251CAE915C003917A8 /* Main.storyboard in Resources */,
+				576B33611CAE927A003917A8 /* gesture_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +325,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576B33561CAE922D003917A8 /* WUGesturesUnlockView.m in Sources */,
 				576B33221CAE915C003917A8 /* ViewController.m in Sources */,
+				576B33551CAE922D003917A8 /* WUGesturesUnlockIndicator.m in Sources */,
 				576B331F1CAE915C003917A8 /* AppDelegate.m in Sources */,
+				576B33571CAE922D003917A8 /* WUGesturesUnlockViewController.m in Sources */,
 				576B331C1CAE915C003917A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WUGestureToUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuqh.WUGestureToUnlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WUGestureToUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wuqh.WUGestureToUnlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +558,7 @@
 				576B33461CAE915C003917A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		576B33471CAE915C003917A8 /* Build configuration list for PBXNativeTarget "WUGestureToUnlockTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +567,7 @@
 				576B33491CAE915C003917A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		576B334A1CAE915C003917A8 /* Build configuration list for PBXNativeTarget "WUGestureToUnlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +576,7 @@
 				576B334C1CAE915C003917A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
